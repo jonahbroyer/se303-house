@@ -29,4 +29,6 @@ class House
     end
   end
 
+  def recite
+  end
 end
