@@ -32,6 +32,8 @@ class House
       "maiden all forlorn that milked the #{phrase(number - 1)}"
     elsif number == 6
       "cow with the crumpled horn that tossed the"
+    elsif number == 5
+      "dog that worried the"
     else
       ""
     end
