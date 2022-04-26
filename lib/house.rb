@@ -32,6 +32,8 @@ class House
       "dog that worried the #{phrase(number - 1)}"
     elsif number == 4
       "cat that killed the"
+    elsif number == 3
+      "rat that ate the"
     else
       ""
     end
