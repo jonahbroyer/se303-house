@@ -17,7 +17,7 @@ class House
     when 7
       "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
     else
-      "This is the #{phrase(number)} maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+      "This is the #{phrase(number)} crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
     end
   end
 
@@ -31,7 +31,7 @@ class House
     elsif number == 9
       "priest all shaven and shorn that married the #{phrase(number - 1)}"
     elsif number == 8
-      "man all tattered and torn that kissed the"
+      "man all tattered and torn that kissed the #{phrase(number - 1)}"
     elsif number == 7
       "maiden all forlorn that milked the cow with the"
     else
