@@ -32,6 +32,8 @@ class House
       "farmer sowing his corn that kept the #{phrase(number - 1)}"
     elsif number == 10
       "rooster that crowed in the morn that woke the"
+    elsif number == 9
+      ""
     else
       ""
     end
