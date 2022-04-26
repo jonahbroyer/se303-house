@@ -32,6 +32,8 @@ class House
       "cow with the crumpled horn that tossed the #{phrase(number - 1)}"
     elsif number == 5
       "dog that worried the"
+    elsif number == 4
+      "cat that killed the"
     else
       ""
     end
