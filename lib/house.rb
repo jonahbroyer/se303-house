@@ -32,6 +32,8 @@ class House
       "rooster that crowed in the morn that woke the #{phrase(number - 1)}"
     elsif number == 9
       "priest all shaven and shorn that married the"
+    elsif number == 8
+      ""
     else
       ""
     end
