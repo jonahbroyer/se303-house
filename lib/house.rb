@@ -15,7 +15,7 @@ class House
     when 6
       "This is the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
     else
-      "This is the #{phrase(number)} crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+      "This is the #{phrase(number)} dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
     end
   end
 
@@ -31,7 +31,7 @@ class House
     elsif number == 8
       "man all tattered and torn that kissed the #{phrase(number - 1)}"
     elsif number == 7
-      "maiden all forlorn that milked the cow with the"
+      "maiden all forlorn that milked the #{phrase(number - 1)}"
     elsif number == 6
       "cow with the crumpled horn that tossed the"
     else
