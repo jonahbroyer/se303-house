@@ -31,7 +31,7 @@ class House
     elsif number == 11
       "farmer sowing his corn that kept the #{phrase(number - 1)}"
     elsif number == 10
-      "rooster that crowed in the morn that woke the"
+      "rooster that crowed in the morn that woke the #{phrase(number - 1)}"
     elsif number == 9
       "priest all shaven and shorn that married the"
     else
