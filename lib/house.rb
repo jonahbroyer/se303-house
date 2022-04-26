@@ -33,7 +33,7 @@ class House
     elsif number == 9
       "priest all shaven and shorn that married the"
     elsif number == 8
-      ""
+      "man all tattered and torn that kissed the"
     else
       ""
     end
