@@ -32,6 +32,8 @@ class House
       "priest all shaven and shorn that married the #{phrase(number - 1)}"
     elsif number == 8
       "man all tattered and torn that kissed the"
+    elsif number == 7
+      "maiden all forlorn that milked the cow with the"
     else
       ""
     end
