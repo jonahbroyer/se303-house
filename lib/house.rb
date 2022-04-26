@@ -32,6 +32,8 @@ class House
       "man all tattered and torn that kissed the #{phrase(number - 1)}"
     elsif number == 7
       "maiden all forlorn that milked the cow with the"
+    elsif number == 6
+      "cow with the crumpled horn that tossed the"
     else
       ""
     end
