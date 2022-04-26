@@ -9,7 +9,7 @@ class House
     when 3
       "This is the rat that ate the malt that lay in the house that Jack built.\n"
     else
-      "This is the #{phrase(number)} rat that ate the malt that lay in the house that Jack built.\n"
+      "This is the #{phrase(number)} malt that lay in the house that Jack built.\n"
     end
   end
 
@@ -31,7 +31,7 @@ class House
     elsif number == 5
       "dog that worried the #{phrase(number - 1)}"
     elsif number == 4
-      "cat that killed the"
+      "cat that killed the #{phrase(number - 1)}"
     elsif number == 3
       "rat that ate the"
     else
