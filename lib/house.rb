@@ -7,7 +7,9 @@ class House
   end
 
   def phrase(number)
-    if number == 12
+    if number < @@clause.length
+      return @@clause[number]
+    elsif number == 12
       "horse and the hound and the horn that belonged to the #{phrase(number - 1)}"
     elsif number == 11
       "farmer sowing his corn that kept the #{phrase(number - 1)}"
