@@ -1,6 +1,8 @@
 class House
 
-  @@clause = []
+  @@clause = [
+    "",
+  ]
 
   def line(number)
     "This is the #{phrase(number)}.\n"
@@ -33,8 +35,6 @@ class House
       "malt that lay in the #{phrase(number - 1)}"
     elsif number == 1
       "house that Jack built"
-    else
-      ""
     end
   end
 
