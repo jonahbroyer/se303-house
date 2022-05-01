@@ -1,5 +1,7 @@
 class House
 
+  @@clause = []
+
   def line(number)
     "This is the #{phrase(number)}.\n"
   end
