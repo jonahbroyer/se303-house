@@ -1,6 +1,7 @@
 class House
 
   @@clause = [
+    "This clause is unknown",
     "",
     "malt that lay in the ",
     "rat that ate the malt that lay in the ",
@@ -16,7 +17,7 @@ class House
   ]
 
   def line(number)
-    "This is the #{@@clause[number - 1]}house that Jack built.\n"
+    "This is the #{@@clause[number]}house that Jack built.\n"
   end
 
   def recite
