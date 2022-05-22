@@ -2,6 +2,7 @@ class House
 
   @@clause = [
     "",
+    "malt that lay in the ",
   ]
 
   def line(number)
