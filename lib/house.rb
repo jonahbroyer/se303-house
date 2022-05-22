@@ -3,6 +3,7 @@ class House
   @@clause = [
     "",
     "malt that lay in the ",
+    "rat that ate the malt that lay in the "
   ]
 
   def line(number)
