@@ -10,7 +10,7 @@ class House
 
   def phrase(number)
     if number < @@clause.length
-      return @@clause[number]
+      return @@clause[number - 1]
     elsif number == 12
       "horse and the hound and the horn that belonged to the #{phrase(number - 1)}"
     elsif number == 11
