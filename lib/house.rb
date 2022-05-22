@@ -16,7 +16,7 @@ class House
   ]
 
   def line(number)
-    "This is the #{phrase(number)}house that Jack built.\n"
+    "This is the #{@@clause[number - 1]}house that Jack built.\n"
   end
 
   def phrase(number)
