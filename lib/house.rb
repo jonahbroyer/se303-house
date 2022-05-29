@@ -28,6 +28,7 @@ end
 class Pirate < House
 
   def line(number)
+    "Thar be the #{@@clause[number]}house that Jack built.\n"
   end
 
 end
