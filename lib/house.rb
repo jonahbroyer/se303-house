@@ -32,3 +32,7 @@ class Pirate < House
   end
 
 end
+
+class RandomHouse < House
+
+end
