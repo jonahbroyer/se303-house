@@ -16,7 +16,7 @@ class House
       "farmer sowing his corn that kept the ",
       "horse and the hound and the horn that belonged to the ",
     ]
-end
+  end
 
   def line(number)
     "This is the #{build_line(number)}house that Jack built.\n"
