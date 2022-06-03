@@ -48,4 +48,8 @@ end
 
 class RandomHouse < House
 
+  def clause
+    super.shuffle
+  end
+
 end
