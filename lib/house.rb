@@ -36,8 +36,12 @@ end
 
 class Pirate < House
 
+  def initialize(starting_phrase = "Thar be")
+    @starting_clause = starting_clause
+  end
+
   def line(number)
-    "Thar be the #{build_line(number)}house that Jack built.\n"
+    "#{starting_phrase} the #{build_line(number)}house that Jack built.\n"
   end
 
 end
