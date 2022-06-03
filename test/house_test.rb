@@ -182,8 +182,7 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_mixed_subject_verb_line
-    skip
     phrase_1 = 'to belonged that horn the and hound the and horse the.'
-    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase1)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_1)
   end
 end

@@ -55,4 +55,12 @@ end
 
 class MixSubjectVerbHouse < House
 
+  def recite
+    (0..11).collect{|i| line(i)}.join("\n")
+  end
+ 
+  def line(number)
+     "#{starting_phrase} #{clause[number].split(' ').reverse.join(' ')}.\n"      
+  end
+
 end
