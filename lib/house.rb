@@ -28,10 +28,6 @@ class House
     "#{starting_phrase} #{clause.last(number).join(' ')}.\n"
   end
 
-  def build_line(number)
-    number.downto(1).collect { |i| @clause[i] }.join("")
-  end
-
   def recite
     (1..12).map { |number| line(number) }.join("\n")
   end
@@ -39,8 +35,13 @@ end
 
 class Pirate < House
 
+  def initialize(starting_phrase = "Thar be")
+    @starting_phrase = starting_phrase
+    @phrase = clause
+  end
+
   def line(number)
-    "Thar be the #{build_line(number)}house that Jack built.\n"
+    "#{starting_phrase} #{clause.last(number).join(' ')}.\n"
   end
 
 end
