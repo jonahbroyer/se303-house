@@ -183,6 +183,29 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
 
   def test_mixed_subject_verb_line
     phrase_1 = 'to belonged that horn the and hound the and horse the.'
+    phrase_2 ='kept that corn his sowing farmer the.'
+    phrase_3 ='woke that morn the in crowed that rooster the.'
+    phrase_4 ='married that shorn and shaven all priest the.'
+    phrase_5 ='kissed that torn and tattered all man the.'
+    phrase_6 ='milked that forlorn all maiden the.'
+    phrase_7 ='tossed that horn crumpled the with cow the.'
+    phrase_8 = 'worried that dog the.'
+    phrase_9 ='killed that cat the.'
+    phrase_10 ='ate that rat the.'
+    phrase_11 ='in lay that malt the.'
+    phrase_12 ='built Jack that house the.'
+    
     assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_1)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_2)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_3)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_4)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_5)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_6)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_7)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_8)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_9)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_10)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_11)
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase_12)
   end
 end
