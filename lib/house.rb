@@ -52,3 +52,7 @@ class RandomHouse < House
     super.shuffle
   end
 end
+
+class MixSubjectVerbHouse < House
+
+end
