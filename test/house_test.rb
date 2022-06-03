@@ -153,7 +153,6 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_pirate_house_random
-    skip
     expected_pirate_house = <<-TEXT
     Thar be the house that Jack built.
 
@@ -180,5 +179,11 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
     Thar be the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.
     TEXT
     refute_equal expected_pirate_house, RandomHouse.new("Thar be").recite, "Phrases are the same"
+  end
+
+  def test_mixed_subject_verb_line
+    skip
+    phrase_1 = 'to belonged that horn the and hound the and horse the.'
+    assert MixSubjectVerbHouse.new("This is").recite.include?(phrase1)
   end
 end
