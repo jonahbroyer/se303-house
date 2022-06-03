@@ -1,6 +1,9 @@
 class House
 
-  def initialize()
+  attr_reader :starting_phrase
+
+  def initialize(starting_phrase = "This is")
+    @starting_phrase = starting_phrase
     @clause = [
       "This clause is unknown",
       "",
@@ -19,7 +22,7 @@ class House
   end
 
   def line(number)
-    "This is the #{build_line(number)}house that Jack built.\n"
+    "#{starting_phrase} the #{build_line(number)}house that Jack built.\n"
   end
 
   def build_line(number)
